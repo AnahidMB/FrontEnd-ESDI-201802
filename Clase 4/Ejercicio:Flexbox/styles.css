@@ -1,0 +1,37 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    display:flex;
+   /* flex-direction:row-reverse;*/
+   flex-wrap: wrap;
+}
+
+.container div {
+    height: 300px;
+    text-align: center;
+    text-transform: uppercase;
+    flex-basis:32%;
+    
+}
+
+#column1 {
+    background: blue;
+}
+#column2 {
+    background: red;
+}
+#column3 {
+    background: grey;
+    order:-1;
+}
+
+#column4 {
+    background: brown;
+}
+
+#column5 {
+    background: pink;
+}
